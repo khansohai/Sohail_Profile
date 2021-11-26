@@ -1,0 +1,114 @@
+html
+{
+	scroll-behavior:smooth;
+}
+/* Header*/
+.navbar-inverse
+{
+	background: Black;
+	color: white;
+}
+.navbar-inverse .navbar-nav>li>a
+{
+	font-size:30px;
+	font-family:monotype corsiva;
+	color:blue;
+}
+.navbar-inverse .navbar-nav>li>a:hover
+{
+	color:orange;
+}
+
+/* home */
+#home
+{
+	overflow:hidden;
+}
+.one
+{
+		font-size:28px;
+		font-family:gabriola;
+		padding-top:12px;
+		padding-left:12px;
+		line-height:53px;
+		word-spacing:15px;
+		color:#171a1e;
+		
+}
+.abt
+{
+		font-family:Baskerville Old Face;
+		padding:35px;
+		font-weight:bold;
+		color:#121212;
+}
+.img-thumbnail{
+	border:2px Black;
+	background: #bfbbbb;
+}	
+/*Education section*/
+.edu
+{
+	font-size: 40px;
+	font-weight:bold;
+	color:black;
+	font-family:monotype corsiva;
+}
+.table th
+{
+	text-align:center;
+	font-size:30px;
+	font-family: monotype corsiva;
+	color:Black;
+	line-weight:10px;
+}
+.table td
+{
+	text-align:center;
+	color: Black;
+}
+.table-bordered
+{
+	border:10px Black;
+}
+/*Skills
+.ski{
+		padding-top:30px;
+		padding-bottom:35px;
+		font-family:Baskerville Old Face;
+		font-weight:bold;
+		color:black;
+}*/
+/*copy code*/
+img {
+    width: 100%;
+    height: 100%
+}
+
+.bg-black {
+    background: #000
+}
+
+.skill-block {
+    width: 30%
+}
+
+@media (min-width: 991px) and (max-width:1200px) {
+    .skill-block {
+        padding: 32px !important
+    }
+}
+
+@media (min-width: 1200px) {
+    .skill-block {
+        padding: 56px !important
+    }
+}
+
+body {
+    background-color: #eeeeee
+}
+.button
+{
+	display: inline-block;
+}
